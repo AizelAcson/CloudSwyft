@@ -1,0 +1,25 @@
+--- 
+commands: 
+  - $Docker_Hub_Trigger
+deployment: 
+  branch: master
+  dockerhub: ~
+test: 
+  override: 
+    - 
+      ? 
+        - mocha
+      : ~
+
+
+
+
+
+
+
+
+
+
+
+
+
